@@ -4,7 +4,7 @@ const PORT = 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello, Harness CI!\n');
+  res.end('Welcome, Harness CI!\n');
 });
 
 server.listen(PORT, () => {
