@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_balajitoverto_harnessCiDemo_1736411181461-push-trigger-input-set
+  identifier: Build_balajitoverto_harnessCiDemo_1736411181461pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_balajitoverto_harnessCiDemo_1736411181461
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
